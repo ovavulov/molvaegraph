@@ -9,7 +9,7 @@ Molecular VAE with Graph Neural Network
 - models.py - vanila molecualar VAE
 - train.py - vanila molecualar VAE training
 - reconstruction.py - reconstruction script with vanila molecular VAE
-- ae_sample.csv - reconstruction results
+- ae_sample.csv - reconstruction results (vanila molecualar VAE)
 
 
 - models_gcn.py - molVAE with joined graph encoder
