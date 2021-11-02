@@ -1,0 +1,25 @@
+data:
+  train_sample: 0.5
+  test_sample: 0.1
+  alphabet_size: 28
+  seq_size: 59
+  graph_size: 28
+  virtual_node_idx: -1
+  atomic_feats_size: 9
+model:
+  device: cuda
+  batch_size: 512
+  epochs: 10
+  verbose: 100
+  noise: No
+  graph:
+    hidden_size: 7
+    output_size: 5
+  optimizer:
+    learning_rate: 0.0001
+    weight_decay: 0.0001
+generation:
+  batch_size: 1000
+  temperature: 0.5
+
+
